@@ -4,7 +4,6 @@ public class Main {
 
         Context context = new Context(new BubbleSort());
         System.out.println("Bubble Sort");
-
         context.executeStrategy(input);
 
         context = new Context(new QuickSort());
